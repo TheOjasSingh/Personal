@@ -1,0 +1,8 @@
+child = ["ojas", "tannu", "samarth", "varun"]
+print(type(child))
+for x in range(len(child)):
+    print(child[x])
+
+for x in range(len(child)):
+    if(child[x] == "tannu"):
+        print("present")
